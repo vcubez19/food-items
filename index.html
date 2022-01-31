@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food menu</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h3>Food menu</h3>
+    </header>
+    <main>
+        <div class="section" id="name-section">
+            <h4>Name</h4>
+            <br>
+            <br>
+            <input type="text" placeholder="Name" id="name">
+        </div>
+            <p id="please">Please select 1 item from each category</p>
+            <div class="section">
+                <h4>Sandwich</h4><p class="price"> $5.00 each</p>
+                <br>
+                <br>
+                <select name="sandwiches" id="sandwiches">
+                    <option value="1">Ham and cheese</option>
+                    <option value="2">Turkey and provolone</option>
+                    <option value="3">Salami and swiss</option>
+                    <option value="4">Avocado and ham</option>
+                    <option value="5">Egg and spinach</option>
+                </select>
+                <input type="number" placeholder="Count" id="sandwich-count" value="0">
+            </div>
+            <div class="section">
+                <h4>Drink</h4><p class="price"> $3.00 each</p> 
+                <br>
+                <br>
+                <select name="drinks" id="drinks">
+                    <option value="1">Sprite</option>
+                    <option value="2">Lemonade</option>
+                    <option value="3">Sweet tea</option>
+                    <option value="4">Powerade</option>
+                    <option value="5">Unsweet tea</option>
+                </select>
+            
+                <input type="number" placeholder="Count" id="drink-count" value="0">
+            </div>
+            <div class="section">
+                <h4>Dessert</h4><p class="price"> $4.00 each</p> 
+                <br>
+                <br>
+                <select name="desserts" id="desserts">
+                    <option value="1">Cheesecake</option>
+                    <option value="2">Chocolate cake</option>
+                    <option value="3">Apple pie</option>
+                    <option value="4">Cherry pie</option>
+                    <option value="5">Pumpkin pie</option>
+                </select>
+            
+                <input type="number" placeholder="Count" id="dessert-count" value="0">
+            </div>
+            <div class="section" id="calculate-section">
+                <button id="calculate">Calculate total</button>
+                <p id="order-total-for">Order total</p>
+                <p id="total"></p>
+                <p id="summary"></p>
+            </div>
+    </main>
+    <footer>
+        <!-- <p>&copy; Vincent Cubit 2022</p> -->
+    </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
+

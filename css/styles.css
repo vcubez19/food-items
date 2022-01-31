@@ -1,0 +1,108 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+}
+
+
+h3, footer p {
+    text-align: center;
+}
+
+
+h3 {
+    font-weight: bolder;
+}
+
+
+#please {
+    font-weight: bold;
+}
+
+
+main {
+    padding: 30px;
+}
+
+
+.content {
+    display: none;
+}
+
+
+#please, .section {
+    margin-left: 10%;
+}
+
+.section select {
+    margin-bottom: 30px;
+    padding:10px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 10px;
+    background: dodgerblue;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+}
+
+
+.section select, .section input {
+    font-size: 0.7em;
+}
+
+
+.section input {
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+
+.section {
+    margin-bottom: 50px;
+}
+
+
+#name-section {
+    margin-bottom: 70px;
+}
+
+
+#calculate-section {
+    margin-top: 70px;
+}
+
+button {
+    border-radius: 20px;
+    border: 3px solid green;
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+
+
+button:hover {
+    background-color: white;
+    border: 3px solid green;
+    color: green;
+}
+
+
+#order-total-for {
+    margin-top: 80px;
+}
+
+
+h4, .price {
+    display: inline;
+}
+
+
+.price {
+    font-size: 13px;
+    font-weight: bold;
+    color: green;
+    margin-left: 10px;
+}
+
